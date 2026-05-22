@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 
 const NAV = [
-  { label: 'Home', href: '#hero' },
-  { label: 'Science', href: '#science' },
-  { label: 'Our Story', href: '#about' },
-  { label: 'Community', href: '#community' },
+  { label: 'Inicio', href: '#hero' },
+  { label: 'Ciencia', href: '#science' },
+  { label: 'Nuestra Historia', href: '#about' },
+  { label: 'Comunidad', href: '#community' },
 ];
 
 /** Fixed header that hides on scroll-down, reveals on scroll-up. */
@@ -54,7 +54,7 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <a href="#subscribe" className="cta cta-dark hidden sm:inline-flex">
-            Pre-order Thyroid Hero®
+            Pre-ordena Thyroid Hero®
           </a>
           <button
             aria-label="Toggle menu"

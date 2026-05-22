@@ -17,21 +17,21 @@ export function Footer() {
       >
         <div className="container-px grid items-end gap-12 md:grid-cols-2">
           <div>
-            <p className="eyebrow mb-4 text-charcoal/65">Helping you</p>
+            <p className="eyebrow mb-4 text-charcoal/65">Ayudándote a</p>
             <RevealHeading
               as="h2"
-              text="Feel better, *consistently.*"
+              text="Sentirte mejor, *constantemente.*"
               className="font-serif text-[11vw] font-medium leading-[1] md:text-[5vw]"
             />
           </div>
           <div className="max-w-md md:justify-self-end">
             <p className="mb-8 text-lg leading-relaxed text-charcoal/80">
-              Nutritional supplementation is most impactful when used routinely.
-              Subscribing to Duyu ensures your 30-day supply of Thyroid Hero®
-              reaches you without delay — so you don’t miss a day of benefits.
+              La suplementación nutricional tiene mayor impacto cuando se usa de manera rutinaria.
+              Suscribirse a Duyu asegura que tu suministro de 30 días de Thyroid Hero®
+              llegue sin demoras — para que no te pierdas ni un día de beneficios.
             </p>
             <a href="#subscribe" className="cta cta-dark">
-              Subscribe Now
+              Suscríbete Ahora
             </a>
           </div>
         </div>
@@ -45,7 +45,7 @@ export function Footer() {
             </a>
             <div className="max-w-md">
               <p className="mb-6 font-serif text-2xl">
-                Follow us on <i className="italic">Instagram</i>
+                Síguenos en <i className="italic">Instagram</i>
               </p>
               <div className="grid grid-cols-4 gap-3">
                 {GALLERY.map((g, i) => (
@@ -61,42 +61,40 @@ export function Footer() {
 
           <div className="grid gap-12 py-14 md:grid-cols-2">
             <p className="max-w-md font-serif text-2xl md:text-3xl">
-              Contact us regarding{' '}
-              <i className="italic">the latest in thyroid care!</i>
+              ¡Contáctanos sobre{' '}
+              <i className="italic">lo último en cuidado tiroideo!</i>
             </p>
             <div className="md:justify-self-end">
               <p className="mb-6 max-w-xs text-cream/70">
-                Click “Contact Us” to subscribe and discover a wealth of
-                information.
+                Haz clic en “Contáctanos” para suscribirte y descubrir mucha más información.
               </p>
               <a href="#subscribe" className="cta cta-stroke-light">
-                Contact Us
+                Contáctanos
               </a>
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-8 border-t border-cream/15 py-12 text-sm md:grid-cols-3">
             <div className="flex flex-col gap-3 text-cream/70">
-              <a href="#science" className="hover:text-cream">Science</a>
-              <a href="#about" className="hover:text-cream">Our Story</a>
+              <a href="#science" className="hover:text-cream">Ciencia</a>
+              <a href="#about" className="hover:text-cream">Nuestra Historia</a>
             </div>
             <div className="flex flex-col gap-3 text-cream/70">
-              <a href="#community" className="hover:text-cream">Community</a>
-              <a href="#subscribe" className="hover:text-cream">Contact Us</a>
+              <a href="#community" className="hover:text-cream">Comunidad</a>
+              <a href="#subscribe" className="hover:text-cream">Contáctanos</a>
               <a href="https://www.instagram.com/duyucare/" className="hover:text-cream">
                 Instagram
               </a>
             </div>
             <div className="flex flex-col gap-3 text-cream/70">
-              <a href="#" className="hover:text-cream">Privacy Policy</a>
-              <a href="#" className="hover:text-cream">Terms &amp; Conditions</a>
-              <a href="#" className="hover:text-cream">Cookie Policy</a>
+              <a href="#" className="hover:text-cream">Política de Privacidad</a>
+              <a href="#" className="hover:text-cream">Términos y Condiciones</a>
+              <a href="#" className="hover:text-cream">Política de Cookies</a>
             </div>
           </div>
 
           <p className="pt-8 text-xs text-cream/50">
-            © 2026 Duyu Care Limited. All rights reserved. — Recreation for demo
-            purposes.
+            © 2026 Duyu Care Limited. Todos los derechos reservados. — Recreación para fines de demostración.
           </p>
         </div>
       </footer>

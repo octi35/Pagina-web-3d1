@@ -11,18 +11,18 @@ import { useInView } from '../../hooks/useInView';
 gsap.registerPlugin(ScrollTrigger);
 
 const ADVANTAGES = [
-  'Your thyroid is your body’s silent hero, tirelessly working behind the scenes to keep your metabolism, energy levels, and mood in check.',
-  'The thyroid gland requires several key nutrients for optimal function — essential for the production, conversion, and regulation of thyroid hormones.',
-  'Our nutritionist-formulated, full-spectrum supplement delivers these essential vitamins, minerals and adaptogens in one daily serving.',
-  'Caring for your thyroid made easy.',
+  'Tu tiroides es el héroe silencioso de tu cuerpo, trabajando incansablemente para mantener bajo control tu metabolismo, niveles de energía y estado de ánimo.',
+  'La glándula tiroidea requiere varios nutrientes clave para su función óptima — esenciales para la producción, conversión y regulación de las hormonas tiroideas.',
+  'Nuestro suplemento de espectro completo formulado por nutricionistas entrega estas vitaminas, minerales y adaptógenos esenciales en una porción diaria.',
+  'Cuidar tu tiroides se vuelve fácil.',
 ];
 
 const FUNCTIONS = [
-  ['Immune Function', 'Antioxidant Defence'],
-  ['Metabolic Function', 'Weight Maintenance'],
-  ['Cognitive Function', 'Balanced energy, reduced fatigue + brain fog, mood + stress regulation'],
-  ['Menstrual Health', 'Period regularity, symptom relief'],
-  ['Skin Health', 'Shinier hair, stronger nails, hydrated skin'],
+  ['Función Inmune', 'Defensa Antioxidante'],
+  ['Función Metabólica', 'Mantenimiento de Peso'],
+  ['Función Cognitiva', 'Energía balanceada, reducción de fatiga + niebla mental, regulación emocional + estrés'],
+  ['Salud Menstrual', 'Regularidad menstrual, alivio de síntomas'],
+  ['Salud de la Piel', 'Cabello brillante, uñas fuertes, piel hidratada'],
 ];
 
 export function ProductShowcase() {
@@ -77,9 +77,9 @@ export function ProductShowcase() {
     <section ref={section} id="endocrine" className="relative py-28 md:py-40">
       <div className="container-px">
         <h2 className="text-center font-serif text-[10vw] font-medium leading-[0.95] md:text-[5.5vw]">
-          Your Endocrine
+          Tu Sistema Endocrino,
           <br />
-          System, <span className="italic">Optimised</span>
+          <span className="italic">Optimizado</span>
         </h2>
       </div>
 

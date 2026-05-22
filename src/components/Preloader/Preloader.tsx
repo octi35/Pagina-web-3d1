@@ -85,17 +85,17 @@ export function Preloader({ onComplete }: PreloaderProps) {
 
       <div className="flex items-end justify-between">
         <p data-pre-fade className="max-w-[10rem] text-sm leading-snug opacity-80">
-          Start Your Best
+          Empieza Tu Mejor
           <br />
-          Good Habit
+          Hábito Saludable
         </p>
         <p
           data-pre-fade
           className="max-w-[10rem] text-right text-sm leading-snug opacity-80"
         >
-          Restore Your
+          Restaura La Salud
           <br />
-          Thyroid Health
+          De Tu Tiroides
         </p>
       </div>
     </div>

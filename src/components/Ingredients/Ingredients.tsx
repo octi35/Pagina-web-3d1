@@ -36,10 +36,10 @@ const SPHERES: { position: [number, number, number]; color: string; radius: numb
 ];
 
 const STATS = [
-  { to: 60, suffix: '%', label: 'are undiagnosed' },
-  { to: 5, suffix: ' yrs', label: 'average time to get diagnosed' },
-  { to: 50, suffix: '%', label: 'still experience symptoms after receiving treatment' },
-  { to: 78, suffix: '%', label: 'of physicians recommend supplementation as part of thyroid treatment' },
+  { to: 60, suffix: '%', label: 'están sin diagnosticar' },
+  { to: 5, suffix: ' años', label: 'tiempo promedio para recibir un diagnóstico' },
+  { to: 50, suffix: '%', label: 'aún experimentan síntomas después de recibir tratamiento' },
+  { to: 78, suffix: '%', label: 'de los médicos recomiendan suplementación como parte del tratamiento de la tiroides' },
 ];
 
 export function Ingredients() {
@@ -91,9 +91,9 @@ export function Ingredients() {
         </div>
 
         <div className="container-px relative z-10">
-          <p className="eyebrow mb-6 text-charcoal/60">The Formula</p>
+          <p className="eyebrow mb-6 text-charcoal/60">La Fórmula</p>
           <h2 className="max-w-[16ch] font-serif text-[8vw] font-medium leading-[1] md:text-[4.5vw]">
-            13 scientifically-studied ingredients in one daily ritual.
+            13 ingredientes estudiados científicamente en un ritual diario.
           </h2>
 
           <div
@@ -116,9 +116,9 @@ export function Ingredients() {
       {/* science stats band */}
       <div id="science" className="bg-sage py-24 md:py-32">
         <div className="container-px">
-          <p className="eyebrow mb-4 text-charcoal/70">Science</p>
+          <p className="eyebrow mb-4 text-charcoal/70">Ciencia</p>
           <h3 className="mb-16 max-w-[18ch] font-serif text-[7vw] font-medium leading-[1.02] md:text-[3.6vw]">
-            Why our <span className="italic">approach</span> is important
+            Por qué nuestro <span className="italic">enfoque</span> es importante
           </h3>
           <div className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
             {STATS.map((s) => (

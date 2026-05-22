@@ -3,16 +3,16 @@ import { RevealHeading } from '../shared/RevealHeading';
 
 const ITEMS = [
   {
-    q: 'What are the 13 key ingredients in Thyroid Hero™?',
-    a: 'Ashwagandha, Organic Chaga, L-Tyrosine, Beta Carotene, Selenium, Vitamin D3, Vitamin B12, Vitamin B1, Vitamin B2, Iodine, Magnesium Glycinate, Zinc, and Iron.',
+    q: '¿Cuáles son los 13 ingredientes clave en Thyroid Hero™?',
+    a: 'Ashwagandha, Chaga Orgánico, L-Tirosina, Beta Caroteno, Selenio, Vitamina D3, Vitamina B12, Vitamina B1, Vitamina B2, Yodo, Glicinato de Magnesio, Zinc y Hierro.',
   },
   {
-    q: 'What are the health benefits of each key ingredient?',
-    a: 'Each ingredient is chosen for a specific role — adaptogens like Ashwagandha and Organic Chaga help manage stress and immune regulation; L-Tyrosine, Iodine, Selenium and Zinc directly support thyroid hormone production and metabolism; the B-vitamins, D3, Iron and Magnesium Glycinate round out energy, cognitive function, and overall wellbeing.',
+    q: '¿Cuáles son los beneficios para la salud de cada ingrediente clave?',
+    a: 'Cada ingrediente se elige para un rol específico — los adaptógenos como la Ashwagandha y el Chaga Orgánico ayudan a manejar el estrés y la regulación inmunológica; la L-Tirosina, Yodo, Selenio y Zinc apoyan directamente la producción y metabolismo de las hormonas tiroideas; las vitaminas B, D3, Hierro y Glicinato de Magnesio completan la energía, la función cognitiva y el bienestar general.',
   },
   {
-    q: 'How many Thyroid Hero™ capsules should I take per day?',
-    a: 'Our recommended dosage is two capsules daily, ideally taken with food and water.',
+    q: '¿Cuántas cápsulas de Thyroid Hero™ debo tomar al día?',
+    a: 'Nuestra dosis recomendada es de dos cápsulas al día, idealmente tomadas con comida y agua.',
   },
 ];
 
@@ -23,10 +23,10 @@ export function FAQ() {
     <section className="py-28 md:py-40">
       <div className="container-px grid gap-14 lg:grid-cols-[1fr_1.4fr]">
         <div>
-          <p className="eyebrow mb-6 text-charcoal/55">FAQ</p>
+          <p className="eyebrow mb-6 text-charcoal/55">Preguntas Frecuentes</p>
           <RevealHeading
             as="h2"
-            text="Have *questions?*"
+            text="¿Tienes *preguntas?*"
             className="font-serif text-[12vw] font-medium leading-[1] md:text-[5vw]"
           />
         </div>

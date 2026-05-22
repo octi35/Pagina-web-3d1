@@ -43,13 +43,13 @@ export function About() {
   }, []);
 
   const lines = [
-    'In November 2020, co-founders and partners Marie Peinert and',
-    'Raphael Reuben discovered that Marie suffered from an autoimmune',
-    'thyroid condition. Together, they embarked on a journey to recovery',
-    'through holistic care. Like Marie, 800 million people worldwide are',
-    'affected by thyroid conditions. Duyu Care exists to help those living',
-    'with these chronic conditions — and to provide best-in-class',
-    'preventative care for everyone else.',
+    'En noviembre de 2020, los cofundadores y socios Marie Peinert y',
+    'Raphael Reuben descubrieron que Marie padecía una afección',
+    'tiroidea autoinmune. Juntos, se embarcaron en un viaje hacia la recuperación',
+    'a través del cuidado holístico. Al igual que Marie, 800 millones de personas en',
+    'todo el mundo se ven afectadas por afecciones de la tiroides. Duyu Care existe',
+    'para ayudar a quienes viven con estas afecciones crónicas — y para',
+    'proporcionar atención preventiva de primera clase para todos los demás.',
   ];
 
   return (
@@ -70,13 +70,13 @@ export function About() {
       </div>
 
       <div className="container-px relative z-10">
-        <p className="eyebrow mb-10 text-cream/60">About us</p>
+        <p className="eyebrow mb-10 text-cream/60">Sobre nosotros</p>
 
         <div className="grid gap-16 lg:grid-cols-[1.1fr_1fr]">
           <div>
             <RevealHeading
               as="h2"
-              text="We Share Your *Lived* *Experience*"
+              text="Compartimos tu *Experiencia* *Vivida*"
               className="mb-10 font-serif text-[9vw] font-medium leading-[1] md:text-[4.5vw]"
             />
             <div className="max-w-2xl text-lg leading-relaxed text-cream/80 md:text-xl">
@@ -91,7 +91,7 @@ export function About() {
               ))}
             </div>
             <a href="#about" className="cta cta-stroke-light mt-10">
-              Get to know us
+              Conócenos
             </a>
           </div>
 
@@ -106,12 +106,12 @@ export function About() {
               />
             </svg>
             <blockquote className="my-8 font-serif text-2xl italic leading-snug md:text-3xl">
-              Through my personal health journey, I’ve come to realise that
-              empowering individuals to take charge of their own health has the
-              potential to revolutionise our approach to healthcare.
+              A través de mi viaje personal de salud, me he dado cuenta de que 
+              empoderar a las personas para que se hagan cargo de su propia salud 
+              tiene el potencial de revolucionar nuestra manera de enfocar el cuidado de la salud.
             </blockquote>
             <figcaption className="text-sm uppercase tracking-[0.14em] text-cream/60">
-              Marie Peinert — Duyu Co-Founder &amp; CEO
+              Marie Peinert — Cofundadora y CEO de Duyu
             </figcaption>
           </figure>
         </div>

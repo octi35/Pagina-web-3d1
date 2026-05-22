@@ -47,14 +47,14 @@ export function Hero() {
           as="h1"
           trigger="load"
           delay={0.2}
-          text="The New Standard of *Thyroid* *Health*"
+          text="El Nuevo Estándar de la *Salud* *Tiroidea*"
           className="max-w-[14ch] font-serif text-[13vw] font-medium leading-[0.95] tracking-tight md:text-[7.5vw]"
         />
 
         <div className="grid items-end gap-10 md:grid-cols-2">
           <div className="flex items-center gap-6">
             <a href="#endocrine" className="cta cta-light border border-charcoal/15">
-              <span>↓</span> Scroll
+              <span>↓</span> Desplazar
             </a>
             {/* founder portraits — gradient stand-ins */}
             <div className="flex -space-x-4">
@@ -68,13 +68,13 @@ export function Hero() {
               data-reveal
               className="mb-6 text-base leading-relaxed text-charcoal/80 md:text-lg"
             >
-              Thyroid health is the north star to unlocking whole-body health. At
-              Duyu Care we believe in creating health rather than fighting disease
-              — developing scientifically-studied products that support your
-              thyroid function and overall wellbeing.
+              La salud tiroidea es fundamental para la salud de todo el cuerpo. 
+              En Duyu Care creemos en la creación de salud en lugar de combatir 
+              enfermedades — desarrollando productos estudiados científicamente 
+              que apoyan tu función tiroidea y bienestar general.
             </p>
             <a href="#subscribe" className="cta cta-stroke">
-              Pre-Order
+              Pre-ordenar
             </a>
           </div>
         </div>

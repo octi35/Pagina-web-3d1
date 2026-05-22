@@ -3,31 +3,31 @@ import { RevealHeading } from '../shared/RevealHeading';
 
 const SLIDES = [
   {
-    title: ['Our ', 'Reactive', 'Proactive Approach'],
-    body: 'Healthcare, as it exists today, is often reactive, exclusively prescriptive, and only treats the symptoms — not the human. The daily challenges of chronic stress, toxic pollutants, inflammation and nutrient-deficient diets are unavoidable. It’s never too early to incorporate healthy habits.',
+    title: ['Nuestro Enfoque ', 'Reactivo', 'Proactivo'],
+    body: 'La atención médica, tal como existe hoy, suele ser reactiva, exclusivamente prescriptiva y trata solo los síntomas — no al ser humano. Los desafíos diarios del estrés crónico, los contaminantes tóxicos, la inflamación y las dietas deficientes en nutrientes son inevitables. Nunca es demasiado temprano para incorporar hábitos saludables.',
   },
   {
-    title: ['Care for Every', '', 'Body'],
-    body: 'Wherever you are on your healing journey, we’ve got you. Duyu provides holistic solutions that empower agency over your body and daily choices — science-backed supplements plus on-demand testing for personalised protocols.',
+    title: ['Cuidado para Cada', '', 'Cuerpo'],
+    body: 'Donde sea que estés en tu camino hacia la sanación, estamos contigo. Duyu ofrece soluciones holísticas que empoderan tu propio cuerpo y decisiones diarias — suplementos respaldados por ciencia junto con pruebas en demanda para protocolos personalizados.',
   },
   {
-    title: ['Daily Rituals', '', 'Powered By Science'],
-    body: 'We care about the cold, hard facts. Duyu is your go-to health and wellness partner — a clean, potent full-spectrum thyroid supplement made with 13 scientifically studied ingredients.',
+    title: ['Rituales Diarios', '', 'Impulsados Por Ciencia'],
+    body: 'Nos importan los datos fríos y claros. Duyu es tu compañero ideal para la salud y el bienestar — un suplemento tiroideo limpio, potente y de espectro completo elaborado con 13 ingredientes estudiados científicamente.',
   },
   {
-    title: ['Good Habits', '', 'Are Cool'],
-    body: 'Health relies on our daily choices. Health is a verb — an active, self-defined pursuit. We want to live in a world where illness is optional, navigable, or preventable through diet, movement, sleep, mental health and community.',
+    title: ['Los Buenos Hábitos', '', 'Son Geniales'],
+    body: 'La salud depende de nuestras decisiones diarias. Salud es un verbo — una búsqueda activa y definida por nosotros mismos. Queremos vivir en un mundo donde la enfermedad sea opcional, navegable o prevenible a través de la dieta, el movimiento, el sueño, la salud mental y la comunidad.',
   },
 ];
 
 const MARQUEE = [
-  'Nutritionist-formulated',
-  'Full-spectrum',
-  '13 active ingredients',
-  'Third-party tested',
-  'Science-backed',
-  'Made for everyBody',
-  'Daily ritual',
+  'Formulado por nutricionistas',
+  'Espectro completo',
+  '13 ingredientes activos',
+  'Probado por terceros',
+  'Respaldado por ciencia',
+  'Hecho para cada cuerpo',
+  'Ritual diario',
 ];
 
 export function Testimonials() {
@@ -38,10 +38,10 @@ export function Testimonials() {
     <section id="community" className="overflow-hidden">
       {/* big stat */}
       <div className="container-px py-28 text-center md:py-40">
-        <p className="eyebrow mb-6 text-charcoal/55">Did you know?</p>
+        <p className="eyebrow mb-6 text-charcoal/55">¿Sabías que?</p>
         <RevealHeading
           as="h2"
-          text="Over 800 million people worldwide are affected by *Thyroid* *Conditions*"
+          text="Más de 800 millones de personas en el mundo se ven afectadas por *Afecciones de la* *Tiroides*"
           className="mx-auto max-w-[20ch] font-serif text-[8vw] font-medium leading-[1.02] md:text-[4.5vw]"
         />
       </div>
@@ -64,7 +64,7 @@ export function Testimonials() {
       <div className="bg-sage/40 py-24 md:py-32">
         <div className="container-px">
           <div className="mb-10 flex items-center justify-between">
-            <p className="eyebrow text-charcoal/60">Why we’re different</p>
+            <p className="eyebrow text-charcoal/60">Por qué somos diferentes</p>
             <div className="flex items-center gap-6">
               <span className="font-serif text-lg">
                 {String(i + 1).padStart(2, '0')}{' '}
