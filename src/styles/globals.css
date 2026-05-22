@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #f4efe6;
+  --sage: #b8d0c8;
+  --charcoal: #1c1b18;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'Manrope', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Hide scrollbar but keep functionality */
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-[1600px] px-6 md:px-12 lg:px-20;
+  }
+
+  .eyebrow {
+    @apply text-[11px] uppercase tracking-widest2 font-medium;
+  }
+
+  /* Pill / CTA button */
+  .cta {
+    @apply inline-flex items-center gap-3 rounded-full px-7 py-3 text-[13px] uppercase tracking-[0.18em]
+           font-medium transition-all duration-500 ease-smooth cursor-pointer select-none;
+  }
+  .cta-dark {
+    @apply bg-charcoal text-cream hover:bg-charcoal-soft;
+  }
+  .cta-light {
+    @apply bg-cream text-charcoal hover:bg-bone;
+  }
+  .cta-stroke {
+    @apply border border-charcoal/40 text-charcoal hover:bg-charcoal hover:text-cream;
+  }
+  .cta-stroke-light {
+    @apply border border-cream/50 text-cream hover:bg-cream hover:text-charcoal;
+  }
+}
+
+/* Reveal helpers driven by GSAP */
+[data-reveal] {
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Marquee */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  animation: marquee 32s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
