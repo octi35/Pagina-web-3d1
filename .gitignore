@@ -6,3 +6,4 @@ dist-ssr
 devlog.txt
 page.html
 .vite
+tsconfig.tsbuildinfo
